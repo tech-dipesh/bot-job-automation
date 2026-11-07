@@ -1,0 +1,387 @@
+# ============================================================
+# Job Bot Configuration — EXAMPLE
+# Edit the keywords, locations, companies, and applicant info
+# below to match your own job search, then keep this file
+# (with your real details) in a PRIVATE repo only.
+# ============================================================
+
+# ------------------------------------------------------------
+# SEARCH TERMS
+# ------------------------------------------------------------
+# Jobs must match at least one keyword in the JOB TITLE.
+#
+# Broad enough to maximize reach, but focused enough to avoid
+# wasting applications on unrelated junior/QA/mobile roles.
+# ------------------------------------------------------------
+keywords:
+  # 1. General Software Engineering & SDE
+  - "Software Engineer"
+  - "Software Development Engineer"
+  - "SDE"
+  - "Software Intern"
+  - "SDE Intern"
+  - "Software Engineer Intern"
+  - "Software Development Intern"
+  
+  # 2. Full Stack & Backend
+  - "Full Stack Developer"
+  - "Full Stack Engineer"
+  - "Full Stack Intern"
+  - "Backend Developer"
+  - "Backend Engineer"
+  - "Backend Intern"
+  - "API Developer"
+  - "Node.js Developer"
+  - "Python Developer"
+  
+  # 3. AI / GenAI / LLM (Your primary focus)
+  - "AI Engineer"
+  - "AI Intern"
+  - "AI Engineer Intern"
+  - "GenAI Engineer"
+  - "LLM Engineer"
+  - "Machine Learning Engineer"
+  - "ML Intern"
+  - "Applied AI Engineer"
+  - "RAG Engineer"
+  
+  # 4. Forward Deployed / Solutions
+  - "Forward Deployed Engineer"
+  - "FDE Intern"
+  - "Solutions Engineer"
+  - "Customer Engineer"
+  
+  # 5. DevOps & Cloud
+  - "DevOps Engineer"
+  - "DevOps Intern"
+  - "Cloud Engineer"
+  - "Cloud Intern"
+  - "Infrastructure Engineer"
+  - "Platform Engineer"
+
+# ------------------------------------------------------------
+# LOCATIONS
+# ------------------------------------------------------------
+# Include major Indian engineering hubs plus Remote India.
+# "India" is intentionally included because many remote-first
+# companies describe their location simply as "India".
+# ------------------------------------------------------------
+locations:
+  # Remote / WFH
+  - "Remote"
+  - "Remote India"
+  - "India"
+  - "Work from Home"
+  - "WFH"
+  - "Anywhere in India"
+
+  # Chandigarh Tricity & Nearby
+  - "Chandigarh"
+  - "Mohali"
+  - "Panchkula"
+  - "Zirakpur"
+
+  # Delhi NCR
+  - "Delhi NCR"
+  - "Delhi"
+  - "NCR"
+  - "New Delhi"
+  - "Noida"
+  - "Greater Noida"
+  - "Gurgaon"
+  - "Gurugram"
+  - "Faridabad"
+  - "Ghaziabad"
+
+  # Major Engineering Hubs (Tier 1)
+  - "Bengaluru"
+  - "Bangalore"
+  - "Hyderabad"
+  - "Pune"
+  - "Mumbai"
+  - "Navi Mumbai"
+  - "Chennai"
+
+  # Major Emerging Tech Hubs (Tier 2)
+  - "Ahmedabad"
+  - "Gandhinagar"
+  - "Kolkata"
+  - "Jaipur"
+  - "Indore"
+  - "Coimbatore"
+  - "Kochi"
+  - "Trivandrum"
+  - "Thiruvananthapuram"
+  - "Bhubaneswar"
+  - "Visakhapatnam"
+  - "Mysore"
+  - "Nagpur"
+  - "Surat"
+  - "Vadodara"
+  - "Bhopal"
+  - "Lucknow"
+  - "Kanpur"
+  - "Nashik"
+  - "Madurai"
+  - "Trichy"
+  - "Tiruchirappalli"
+  - "Dehradun"
+  - "Jodhpur"
+  - "Udaipur"
+  - "Raipur"
+  - "Ranchi"
+  - "Guwahati"
+  - "Vijayawada"
+# ------------------------------------------------------------
+# Example: exclude junior/QA/mobile-only roles, but keep senior
+# levels in since this example config targets senior IC roles.
+# ------------------------------------------------------------
+exclude_keywords:
+  # 1. Seniority (You are a student)
+  - "Senior"
+  - "Staff"
+  - "Principal"
+  - "Director"
+  - "Vice President"
+  - "VP"
+  - "Chief"
+  - "CTO"
+  - "Head of"
+  - "Lead"
+  - "Manager"
+  
+  # 2. Non-Tech Roles (Unless it's Sales Engineering)
+  - "Sales Executive"
+  - "Marketing"
+  - "Human Resources"
+  - "HR"
+  - "Recruiter"
+  - "Finance"
+  - "Business Development"
+  
+  # 3. Roles outside your target stack
+  - "QA Engineer"
+  - "Quality Assurance"
+  - "SDET"
+  - "Automation Tester"
+  - "Manual Tester"
+  - "Android Developer"
+  - "iOS Developer"
+  - "Mobile Developer"
+  - "React Native"
+  - "WordPress"
+  - "PHP Developer"
+  - "Ruby on Rails"
+  - "C#"
+  - ".NET"
+  - "Embedded Systems"
+  - "Firmware"
+  - "Technical Support"
+# COMPANIES TO TRACK DIRECTLY VIA ATS
+# ------------------------------------------------------------
+# Example list below — replace with companies relevant to your
+# own search.
+#
+# ATS board tokens:
+# Greenhouse -> boards.greenhouse.io/<token>
+# Lever      -> jobs.lever.co/<token>
+# Ashby      -> jobs.ashbyhq.com/<token>
+# ------------------------------------------------------------
+companies:
+  # --- Original Provided List ---
+  - name: "Level AI"
+    ats: lever
+    board_token: "levelai"
+
+  - name: "HighLevel"
+    ats: lever
+    board_token: "gohighlevel"
+
+  - name: "KlearNow.ai"
+    ats: lever
+    board_token: "klearnow"
+
+  - name: "ElevenLabs"
+    ats: ashby
+    board_token: "elevenlabs"
+
+  - name: "Ema"
+    ats: ashby
+    board_token: "ema"
+
+  - name: "Sarvam AI"
+    ats: ashby
+    board_token: "sarvam"
+
+  - name: "Emergence"
+    ats: ashby
+    board_token: "emergence"
+
+  - name: "MightyBot"
+    ats: ashby
+    board_token: "MightyBot"
+
+  - name: "Cartesia"
+    ats: ashby
+    board_token: "cartesia"
+
+  - name: "Reacher"
+    ats: ashby
+    board_token: "reacher"
+
+  # --- Agentic AI & Enterprise Automation Competitors ---
+  - name: "Decagon"
+    ats: ashby
+    board_token: "decagon"
+
+  - name: "Sierra"
+    ats: ashby
+    board_token: "sierra"
+
+  - name: "Cognition"
+    ats: ashby
+    board_token: "cognition"
+
+  - name: "Imbue"
+    ats: ashby
+    board_token: "imbue"
+
+  - name: "Listen Labs"
+    ats: ashby
+    board_token: "listenlabs"
+
+  - name: "Cresta"
+    ats: greenhouse
+    board_token: "cresta"
+
+  - name: "Assembled"
+    ats: greenhouse
+    board_token: "assembled"
+
+  - name: "LlamaIndex"
+    ats: ashby
+    board_token: "llamaindex"
+
+  - name: "LangChain"
+    ats: ashby
+    board_token: "langchain"
+
+  # --- Voice, Audio & Multimodal AI Competitors ---
+  - name: "Hume AI"
+    ats: greenhouse
+    board_token: "humeai"
+
+  - name: "Deepgram"
+    ats: greenhouse
+    board_token: "deepgram"
+
+  - name: "AssemblyAI"
+    ats: greenhouse
+    board_token: "assemblyai"
+
+  - name: "HeyGen"
+    ats: greenhouse
+    board_token: "heygen"
+
+  - name: "Suno"
+    ats: greenhouse
+    board_token: "suno"
+
+  - name: "Tavus"
+    ats: greenhouse
+    board_token: "tavus"
+
+  # --- Compute, Cloud & Model Serving Infrastructure ---
+  - name: "Cohere"
+    ats: ashby
+    board_token: "cohere"
+
+  - name: "Baseten"
+    ats: ashby
+    board_token: "baseten"
+
+  - name: "Modal"
+    ats: ashby
+    board_token: "modal"
+
+  - name: "Together AI"
+    ats: greenhouse
+    board_token: "togetherai"
+
+  - name: "Replicate"
+    ats: greenhouse
+    board_token: "replicate"
+
+  - name: "Anyscale"
+    ats: greenhouse
+    board_token: "anyscale"
+
+  - name: "CoreWeave"
+    ats: greenhouse
+    board_token: "coreweave"
+
+  - name: "Vercel"
+    ats: greenhouse
+    board_token: "vercel"
+
+  # --- Developer AI & Code Generation (Reacher / Emergence Competitors) ---
+  - name: "Poolside"
+    ats: greenhouse
+    board_token: "poolside"
+
+  - name: "Cursor"
+    ats: greenhouse
+    board_token: "anysphere"  # Cursor operates under company name Anysphere
+
+  - name: "Magic AI"
+    ats: greenhouse
+    board_token: "magic"
+
+  - name: "Codeium"
+    ats: greenhouse
+    board_token: "codeium"
+# ------------------------------------------------------------
+# BROAD SEARCH
+# ------------------------------------------------------------
+# Adzuna becomes the discovery layer.
+#
+# Direct ATS = high-confidence auto-apply lane
+# Adzuna     = broad discovery / notify lane
+# ------------------------------------------------------------
+broad_search:
+  enabled: true
+  adzuna_country: "in"
+  results_per_search: 20
+  max_days_old: 2
+
+# ------------------------------------------------------------
+# APPLICANT PROFILE
+# ------------------------------------------------------------
+applicant:
+
+  first_name: "Dipendra"
+  last_name: "Sharma"
+
+  email: "hello@dipsharma.me"
+  phone: "+919780111228"
+
+  linkedin_url: "https://www.linkedin.com/in/tech-dipesh/"
+
+  portfolio_url: "https://dipsharma.me"
+
+  # Recommended: convert your resume to PDF and place it here.
+  resume_path: "data/resume.pdf"
+
+  cover_letter_path: "data/cover_letter.pdf"
+
+# ------------------------------------------------------------
+# APPLICATION BEHAVIOR
+# ------------------------------------------------------------
+settings:
+
+  # NEVER guess answers to employer-specific questions.
+  # Prevents bad submissions and inaccurate declarations.
+  auto_submit_only_if_fully_answered: false
+
+  # Reasonable daily/run ceiling.
+  max_applications_per_run: 5
