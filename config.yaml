@@ -13,51 +13,66 @@
 # Broad enough to maximize reach, but focused enough to avoid
 # wasting applications on unrelated junior/QA/mobile roles.
 # ------------------------------------------------------------
+ 
 keywords:
   # 1. General Software Engineering & SDE
-  - "Software Engineer"
-  - "Software Development Engineer"
-  - "SDE"
+  - "Software Development Intern"
   - "Software Intern"
   - "SDE Intern"
   - "Software Engineer Intern"
-  - "Software Development Intern"
+  - "Software Engineer Trainee"
+  - "Software Trainee"
+  - "SDE Trainee"
+  - "Graduate Engineer Trainee" 
+  - "GET"
   
   # 2. Full Stack & Backend
-  - "Full Stack Developer"
-  - "Full Stack Engineer"
   - "Full Stack Intern"
-  - "Backend Developer"
-  - "Backend Engineer"
+  - "Full Stack Trainee"
   - "Backend Intern"
-  - "API Developer"
-  - "Node.js Developer"
-  - "Python Developer"
+  - "Backend Trainee"
+  - "API Developer Trainee"
+  - "Node.js Trainee"
+  - "Python Trainee"
+  - "Node.js Developer Intern"
+  - "Python Developer Intern"
+  - "API Developer Intern"
   
-  # 3. AI / GenAI / LLM (Your primary focus)
-  - "AI Engineer"
+   # 3. AI / GenAI / LLM
   - "AI Intern"
   - "AI Engineer Intern"
-  - "GenAI Engineer"
-  - "LLM Engineer"
-  - "Machine Learning Engineer"
+  - "AI Trainee"
+  - "GenAI Intern"
+  - "LLM Intern"
+  - "GenAI Trainee"
+  - "LLM Trainee"
+  - "Machine Learning Intern"
   - "ML Intern"
-  - "Applied AI Engineer"
-  - "RAG Engineer"
+  - "Applied AI Intern"
+  - "RAG Intern"
+  - "Machine Learning Trainee"
+  - "ML Trainee"
+  - "Applied AI Trainee"
+  - "RAG Trainee"
   
   # 4. Forward Deployed / Solutions
-  - "Forward Deployed Engineer"
+  - "Forward Deployed Engineer Intern"
   - "FDE Intern"
-  - "Solutions Engineer"
-  - "Customer Engineer"
+  - "Solutions Engineer Intern"
+  - "Customer Engineer Intern"
+  - "FDE Trainee"
+  - "Solutions Engineer Trainee"
+  - "Customer Engineer Trainee"
   
   # 5. DevOps & Cloud
-  - "DevOps Engineer"
   - "DevOps Intern"
-  - "Cloud Engineer"
+  - "DevOps Trainee"
+  - "Infrastructure Intern"
+  - "Platform Intern"
   - "Cloud Intern"
-  - "Infrastructure Engineer"
-  - "Platform Engineer"
+  - "Cloud Trainee"
+  - "Infrastructure Trainee"
+  - "Platform Trainee"
 
 # ------------------------------------------------------------
 # LOCATIONS
@@ -67,7 +82,6 @@ keywords:
 # companies describe their location simply as "India".
 # ------------------------------------------------------------
 locations:
-  # Remote / WFH
   - "Remote"
   - "Remote India"
   - "India"
@@ -137,6 +151,19 @@ locations:
 # levels in since this example config targets senior IC roles.
 # ------------------------------------------------------------
 exclude_keywords:
+   # Prevent Non Tech
+  - "Sales Trainee"
+  - "Marketing Trainee"
+  - "HR Trainee"
+  - "Finance Trainee"
+  - "Business Development Trainee"
+  - "Management Trainee"
+  - "Sales Intern"
+  - "Marketing Intern"
+  - "HR Intern"
+  - "Finance Intern"
+  - "Business Development Intern"
+  - "Management Intern"
   # 1. Seniority (You are a student)
   - "Senior"
   - "Staff"
@@ -149,6 +176,13 @@ exclude_keywords:
   - "Head of"
   - "Lead"
   - "Manager"
+  - "Full Time"
+  - "Full-Time"
+  - "Permanent"
+  - "Regular"
+  - "Experienced"
+  - "Mid-Level"
+  - "Mid Level"
   
   # 2. Non-Tech Roles (Unless it's Sales Engineering)
   - "Sales Executive"
@@ -158,27 +192,7 @@ exclude_keywords:
   - "Recruiter"
   - "Finance"
   - "Business Development"
-  
-  # 3. Roles outside your target stack
-  - "QA Engineer"
-  - "Quality Assurance"
-  - "SDET"
-  - "Automation Tester"
-  - "Manual Tester"
-  - "Android Developer"
-  - "iOS Developer"
-  - "Mobile Developer"
-  - "React Native"
-  - "WordPress"
-  - "PHP Developer"
-  - "Ruby on Rails"
-  - "C#"
-  - ".NET"
-  - "Embedded Systems"
-  - "Firmware"
-  - "Technical Support"
-# COMPANIES TO TRACK DIRECTLY VIA ATS
-# ------------------------------------------------------------
+
 # Example list below — replace with companies relevant to your
 # own search.
 #

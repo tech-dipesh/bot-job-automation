@@ -1,5 +1,4 @@
 # Personal data — never commit your real application materials
-data/*
 !data/.gitkeep
 
 # Your real filled-in answers (copy qa_template.yaml -> qa.yaml)
